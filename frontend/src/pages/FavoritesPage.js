@@ -1,5 +1,3 @@
-// src/pages/FavoritesPage.js
-
 import React, { useState, useEffect, useContext } from 'react';
 import { Link, Navigate } from 'react-router-dom';
 import { characters } from '../services/api';
