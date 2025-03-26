@@ -76,9 +76,7 @@ const characterHandler = {
             if (!q) {
                 return res.status(400).json({ message: 'Search query is required' });
             }
-            
-            // Let's use a simplified approach - just return mock data for now
-            // This will let you continue developing the frontend
+
             const mockSearchResults = [
                 { id: 1, name: "Bruce Wayne", alias: "Batman", role: "Hero" },
                 { id: 2, name: "Joker", alias: "Unknown", role: "Villain" },
