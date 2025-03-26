@@ -1,5 +1,3 @@
-// src/routes/characterRoutes.js
-
 const express = require('express');
 const characterHandler = require('../route-handlers/character-handler');
 const { authenticateToken } = require('../middleware/auth');
